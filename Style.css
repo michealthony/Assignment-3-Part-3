@@ -1,0 +1,116 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+    font-size: 10px;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+  }
+  
+  /* Layout */
+  h1{
+    text-align: center;
+    letter-spacing: 1.2px;
+  }
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+  p{
+    font-size: 1rem;
+    line-height: 1.8;
+    letter-spacing: 0.2px;
+  }
+  a{
+    text-decoration: underline;
+    color: #a66;
+  }
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+  a:active{
+    color: #000;
+    font-weight: bold;
+  }
+  a[href^="http"]:after {
+    content: url('external-link-52.png');
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+  a:focus{
+    outline: none;
+  }
+  
+  /List/
+  ul, ol {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+  }
+  
+  li {
+    line-height: 1.8;
+  }
+  
+  ul {
+    list-style-type: disc;
+  }
+  
+  ol {
+    list-style-type: decimal;
+  }
+  /Nav Bar/
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    padding: 10px;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    background-color: #e6e6e6;
+  }
+  
+  nav ul li a:hover {
+    background-color: #a66;
+    color: #fff;
+  }
